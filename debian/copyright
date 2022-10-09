@@ -1,0 +1,150 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kwordquiz
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/education/kwordquiz
+
+Files: *
+Copyright: 2004-2015, Free Software Foundation, Inc
+           2005, KDE Russian translation team
+           2002-2011, Peter Hedlund <peter.hedlund@kdemail.net>
+           2010, Rosetta Contributors and Canonical Ltd
+           2004-2020, This_file_is_part_of_KDE
+License: GPL-2+
+
+Files: doc/*
+       po/ca/docs/*
+       po/de/docs/*
+       po/es/docs/*
+       po/et/docs/*
+       po/fr/docs/*
+       po/it/docs/*
+       po/ko/docs/*
+       po/nl/docs/*
+       po/pl/docs/*
+       po/pt/docs/*
+       po/pt_BR/docs/*
+       po/sv/docs/*
+       po/uk/docs/*
+Copyright: 2003-2008, Peter B. Hedlund
+License: GFDL-1.2+
+
+Files: src/filterproxysearchline.cpp
+       src/filterproxysearchline.h
+Copyright: 2018, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+Files: src/prefcharacter.cpp
+       src/prefcharacter.h
+       src/prefeditor.cpp
+       src/prefeditor.h
+       src/prefgeneral.cpp
+       src/prefgeneral.h
+       src/prefquiz.cpp
+       src/prefquiz.h
+       src/preftutor.cpp
+       src/preftutor.h
+       src/wqprintdialogpage.cpp
+       src/wqprintdialogpage.h
+Copyright: 2003-2010, Peter Hedlund <peter.hedlund@kdemail.net>
+License: LGPL-2
+
+Files: po/uk/kwordquiz.po
+Copyright: 2007-2019, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV-translations
+
+Files: org.kde.kwordquiz.appdata.xml
+Copyright: 2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: CC0-1.0
+
+Files: debian/*
+Copyright: 2011-2020, Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along
+ with this software. If not, see
+ <https://creativecommons.org/publicdomain/zero/1.0/>.
+ --
+ On Debian systems, the complete text of the CC0 Public Domain Dedication
+ can be found in `/usr/share/common-licenses/CC0-1.0’.
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ --
+ On Debian systems, the full text of the GNU Free Documentation License
+ version 1.2 can be found in the file `/usr/share/common-licenses/GFDL-1.2’.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ --
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2’.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ --
+ On Debian systems, the full text of the GNU Library General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <https://www.gnu.org/licenses/>.
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1’,
+ likewise, the complete text of the GNU Lesser General Public License version
+ 3 can be found in `/usr/share/common-licenses/LGPL-3’.
+
+License: LGPL-2.1+3+KDEeV-translations
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1’,
+ likewise, the complete text of the GNU Lesser General Public License version
+ 3 can be found in `/usr/share/common-licenses/LGPL-3’.

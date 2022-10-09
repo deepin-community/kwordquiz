@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="kwordquizrc">
+    <parameter name="fileurl" />
+  </kcfgfile>
+  <group name="Document $(fileurl)">
+    <entry name="SizeHintColumn$(Section)" type="Int" key="SizeHintColumn$(Section)">
+      <parameter name="Section" type="Int" max="1" />
+      <label>Column widths</label>
+      <default param="0">200</default>
+      <default param="1">200</default>
+    </entry>
+    <entry name="KeyboardLayoutColumn$(Section)" type="String" key="KeyboardLayoutColumn$(Section)">
+      <parameter name="Section" type="Int" max="1" />
+      <label>Keyboard layouts</label>
+      <default param="0"></default>
+      <default param="1"></default>
+    </entry>
+  </group>
+</kcfg>

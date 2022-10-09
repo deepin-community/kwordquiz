@@ -1,0 +1,46 @@
+Source: kwordquiz
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libkeduvocdocument-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5crash-dev,
+               libkf5doctools-dev,
+               libkf5guiaddons-dev,
+               libkf5i18n-dev,
+               libkf5itemviews-dev,
+               libkf5newstuff-dev,
+               libkf5notifications-dev,
+               libkf5notifyconfig-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               libphonon4qt5-dev (>= 4.6.60~),
+               libphonon4qt5experimental-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.4),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://edu.kde.org/kwordquiz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kwordquiz
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwordquiz.git
+
+Package: kwordquiz
+Architecture: any
+Depends: kdeedu-kvtml-data, ${misc:Depends}, ${shlibs:Depends}
+Suggests: khelpcenter
+Description: flashcard learning program
+ KWordQuiz is a general purpose flashcard program, typically used for
+ vocabulary training.
+ .
+ KWordQuiz can open vocabulary data in various formats, including the kvtml
+ format used by KDE programs such as Parley, the WQL format used by
+ WordQuiz for Windows, the xml.gz format used by Pauker, and CSV text.
+ .
+ This package is part of the KDE education module.
